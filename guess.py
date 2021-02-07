@@ -15,8 +15,8 @@ while True:
         print('你猜中了!')
         print('這是你猜的', count, '次')
         break
-    elif num >r:
+    elif num > r:
         print('比答案大')
-    elif num <r:
+    elif num < r:
         print('比答案小')
     print('這是你猜的', count, '次')
